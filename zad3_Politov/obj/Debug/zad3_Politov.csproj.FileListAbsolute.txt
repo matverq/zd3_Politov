@@ -1,0 +1,15 @@
+C:\Политов ПР-21\zad3_Politov\bin\Debug\zad3_Politov.exe.config
+C:\Политов ПР-21\zad3_Politov\bin\Debug\zad3_Politov.exe
+C:\Политов ПР-21\zad3_Politov\bin\Debug\zad3_Politov.pdb
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.csproj.AssemblyReference.cache
+C:\Политов ПР-21\zad3_Politov\obj\Debug\MainWindow.g.cs
+C:\Политов ПР-21\zad3_Politov\obj\Debug\App.g.cs
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov_MarkupCompile.cache
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov_MarkupCompile.lref
+C:\Политов ПР-21\zad3_Politov\obj\Debug\MainWindow.baml
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.g.resources
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.Properties.Resources.resources
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.csproj.GenerateResource.cache
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.csproj.CoreCompileInputs.cache
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.exe
+C:\Политов ПР-21\zad3_Politov\obj\Debug\zad3_Politov.pdb

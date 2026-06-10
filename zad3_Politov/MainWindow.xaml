@@ -1,0 +1,65 @@
+﻿<Window x:Class="zad3_Politov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad3_Politov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="5">
+            <TextBlock Text="Ввод данных продукта" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <Label Content="Название:"/>
+            <TextBox x:Name="TxtName" Text="Творог"/>
+
+            <Label Content="Белки (г):"/>
+            <TextBox x:Name="TxtBelok" Text="18"/>
+
+            <Label Content="Углеводы (г):"/>
+            <TextBox x:Name="TxtUgl" Text="3"/>
+
+            <Label Content="Жиры (г):"/>
+            <TextBox x:Name="TxtFats" Text="5"/>
+
+            <Label Content="Категория:"/>
+            <TextBox x:Name="TxtKat" Text="Молочные продукты"/>
+
+            <CheckBox x:Name="ChkIsChild" Content="Добавить как класс-потомок" Margin="0,10,0,5" Checked="Chk_Changed" Unchecked="Chk_Changed"/>
+
+            <StackPanel x:Name="PanelChild" Visibility="Collapsed">
+                <Label Content="Калорийность P:"/>
+                <TextBox x:Name="TxtP" Text="130"/>
+                <Label Content="Фирма (Firm):"/>
+                <TextBox x:Name="TxtFirm" Text="Простоквашино"/>
+            </StackPanel>
+
+            <Button Content="Добавить" Click="BtnAdd_Click" Margin="0,15,0,5" Height="25"/>
+            <Button Content="Удалить выбранный" Click="BtnRemove_Click" Margin="0,0,0,5" Height="25"/>
+            <Button Content="Удалить по введенному имено" Click="BtnRemove2_Click" Margin="0,0,0,5" Height="25"/>
+        </StackPanel>
+
+        <Grid Grid.Column="1" Margin="10,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <ListBox x:Name="MainList" Grid.Row="0" Margin="0,0,0,10"/>
+
+            <StackPanel Grid.Row="1">
+                <UniformGrid Columns="2" Margin="0,0,0,5">
+                    <Button Content="Показать все" Click="BtnShowAll_Click" Height="30" Margin="2"/>
+                    <Button Content="Белок > 15 (LINQ)" Click="BtnFilter_Click" Height="30" Margin="2"/>
+                </UniformGrid>
+                <TextBlock x:Name="LblStatus" Text="Среднее качество: 0" FontSize="12" FontWeight="Bold" Margin="2"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
+
